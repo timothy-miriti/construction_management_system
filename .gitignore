@@ -9,6 +9,15 @@ __pycache__/
 *.pyo
 *.pyd
 
+# Python
+backend/venv/
+**/__pycache__/
+backend/*.pyc
+backend/instance/
+
+# SQLite
+backend/*.db
+
 # Flask
 instance/
 backend/instance/
